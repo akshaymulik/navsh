@@ -7,5 +7,5 @@ sudo apt-get install libqt4-dev libgps-dev espeak
 git clone -b trunk --single-branch https://github.com/navit-gps/navit.git
 mkdir navit-build
 cd navit-build
-cmake navit
+cmake ../navit
 make -j4
